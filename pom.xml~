@@ -33,11 +33,11 @@ THE SOFTWARE.
   </parent>
 
   <groupId>org.jenkins-ci.main</groupId><!-- for historical reason, this plugin has a different groupId -->
-  <artifactId>wso2-maven-plugin</artifactId><!-- for the same reason, artifactId is against the convention -->
+  <artifactId>maven-plugin</artifactId><!-- for the same reason, artifactId is against the convention -->
   <version>2.6-SNAPSHOT</version>
   <packaging>hpi</packaging>
 
-  <name>wso2 - Maven Integration plugin</name>
+  <name>Maven Integration plugin</name>
   <description>This plug-in provides deep integration of Jenkins and Maven. This functionality used to be part of the Jenkins core.
   Now it is a plug-in that is installed by default, but can be disabled.</description>
   <url>http://wiki.jenkins-ci.org/display/JENKINS/Maven+Project+Plugin</url>
